@@ -1,0 +1,7 @@
+<mat-divider></mat-divider>
+<h2>Inventario</h2>
+<a mat-raised-button routerLink = "../inventario/nuevo" >Nuevo</a>
+<mat-divider></mat-divider>
+<app-table-inventarios
+[inventarios] = "detalle_inventario" 
+></app-table-inventarios>
